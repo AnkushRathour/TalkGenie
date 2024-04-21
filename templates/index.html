@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TalkGenie</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', path='/logo/talkgenie-icon.png') }}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="{{ url_for('static', path='/css/style.css') }}" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+  <!-- Theme toggle button -->
+  <button id="themeToggle" class="theme-toggle" title="Toggle Theme">
+    <i class="bi bi-sun"></i>
+  </button>
+
+  <!-- Main contianer -->
+  <div class="container text-center">
+    <img src="{{ url_for('static', path='/logo/talkgenie-logo.png') }}" class="img-fluid" style="height: 400px!important;" />
+    <p style="color: rgb(182 146 228);">TalkGenie grant your voice wishes, utilizing advanced AI to understand your
+      commands and provide swift and accurate responses tailored to your needs.</p>
+    <div class="mb-4">
+      <button id="recordingButton" class="btn btn-dark recording-button" title="Start Recording">
+        <i class="bi bi-mic-fill"></i>
+      </button>
+    </div>
+    <div id="output" class="output-box">
+      <p class="text-muted">Start Recording to begin.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ url_for('static', path='/js/index.js') }}"></script>
+  <script>
+  </script>
+</body>
+
+</html>
