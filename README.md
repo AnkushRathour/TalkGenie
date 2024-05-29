@@ -1,7 +1,7 @@
-# [TalkGenie](https://talkgenie-eeyy.onrender.com/)
-TalkGenie grant your voice wishes, utilizing advanced AI to understand your commands and provide swift and accurate responses tailored to your needs.
+# [Talk Genie](https://talkgenie-eeyy.onrender.com/)
+Talk Genie grant your voice wishes, utilizing advanced AI to understand your commands and provide swift and accurate responses tailored to your needs.
 
-![TalkGenie](https://github.com/AnkushRathour/TalkGenie/blob/main/static/logo/talkgenie-logo.png?raw=true)
+![Talk Genie](https://github.com/AnkushRathour/TalkGenie/blob/main/static/logo/talkgenie-logo.png?raw=true)
 
 # Tech Stack
 - Python
